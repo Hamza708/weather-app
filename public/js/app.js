@@ -19,7 +19,7 @@ wform.addEventListener('submit', (e) => {
 
         document.getElementById("1").innerHTML = data.location
         document.getElementById("2").innerHTML = data.weather
-        document.getElementById("3").innerHTML = "" 
+        
         document.getElementById("4").src = data.icon 
         document.getElementById("5").innerHTML = data.wdesc 
         document.getElementById("6").innerHTML =  data.wspeed 
